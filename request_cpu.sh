@@ -9,6 +9,3 @@
 #SBATCH --time=03:30:00
 #SBATCH --mem=50G
 #SBATCH --constraint=[cascadelake]
-
-#run the application:
-Myapp
