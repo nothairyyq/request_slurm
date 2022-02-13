@@ -1,0 +1,1 @@
+srun -p batch -t 24:00:00 --gres=gpu:4 --constraint v100 --cpus-per-gpu 24 --mem=256G --pty bash -l 
